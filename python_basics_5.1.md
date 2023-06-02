@@ -285,7 +285,8 @@ class Cell:
 I. Очередь
 ```python
 class Queue(list):
-    a = []
+    def __init__(self):
+        a = []
 
     def push(self, item):
         self.a.append(item)
@@ -299,7 +300,8 @@ class Queue(list):
 J. Стек
 ```python
 class Stack(list):
-    a = []
+    def __init__(self):
+        a = []
 
     def push(self, item):
         self.a.append(item)
