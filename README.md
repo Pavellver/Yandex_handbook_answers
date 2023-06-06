@@ -30,7 +30,7 @@ P. Доставка
 Q. Ошибка кассового аппарата
 R. Сдача 10
 S. Украшение чека
-T. Мухи отдельно, котлеты отдельно
+[T. Мухи отдельно, котлеты отдельно](https://github.com/Pavellver/Yandex_handbook_answers/blob/a01192da85f3939f00c141a606b5aae442db28b1/python_basics_2.1.md?plain=1#L130-L135)
   ```
 </details>
 <details>
