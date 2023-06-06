@@ -5,11 +5,14 @@
 
 Answers, solutions, keys to the tasks of the chapters of the handbook "Python Basics" from Yandex.
 
-Список решений по каждой главе:
+
+
+### Раскрывающиеся списки заданий со ссылками на их решение по каждой главе:
 <details>
   <summary>2.1.
 Ввод и вывод данных. Операции с числами, строками. Форматирование</summary>
   
+[Решения 2.1](https://github.com/Pavellver/Yandex_handbook_answers/blob/main/python_basics_2.1.md)
   ```
 A. Привет, Яндекс!
 B. Привет, всем!
@@ -36,6 +39,7 @@ T. Мухи отдельно, котлеты отдельно
 <details>
   <summary>2.2.
 Условный оператор</summary>
+[Решения 2.2](https://github.com/Pavellver/Yandex_handbook_answers/blob/main/python_basics_2.2.md)
   
   ```
 A. Просто здравствуй, просто как дела
@@ -63,7 +67,8 @@ T. Зайка — 2
 <details>
   <summary>2.3.
 Циклы</summary>
-  
+
+[Решения 2.3](https://github.com/Pavellver/Yandex_handbook_answers/blob/main/python_basics_2.3.md)
   ```
 A. Раз, два, три! Ёлочка, гори!
 B. Зайка — 3
@@ -91,6 +96,7 @@ T. Хайпанём немножечко!
   <summary>2.4.
 Вложенные циклы</summary>
   
+[Решения 2.4](https://github.com/Pavellver/Yandex_handbook_answers/blob/main/python_basics_2.4.md)  
   ```
 A. Таблица умножения
 B. Не таблица умножения
@@ -117,7 +123,8 @@ T. Математическая выгода
 <details>
   <summary>3.1.
 Строки, кортежи, списки</summary>
-  
+
+[Решения 3.1](https://github.com/Pavellver/Yandex_handbook_answers/blob/main/python_basics_3.1.md)
   ```
 A. Азбука
 B. Кручу-верчу
@@ -144,7 +151,8 @@ T. Польский калькулятор — 2
 <details>
   <summary>3.2.
 Множества, словари</summary>
-  
+
+[Решения 3.2](https://github.com/Pavellver/Yandex_handbook_answers/blob/main/python_basics_3.2.md)
   ```
 A. Символическая выжимка
 B. Символическая разница
@@ -171,7 +179,8 @@ T. Простая задача 4.0
 <details>
   <summary>3.3.
 Списочные выражения. Модель памяти для типов языка Python</summary>
-  
+
+[Решения 3.3](https://github.com/Pavellver/Yandex_handbook_answers/blob/main/python_basics_3.3.md)
   ```
 A. Список квадратов
 B. Таблица умножения 2.0
@@ -188,7 +197,8 @@ J. RLE наоборот
 <details>
   <summary>3.4.
 Списочные выражения. Модель памяти для типов языка Python</summary>
-  
+
+[Решения 3.4](https://github.com/Pavellver/Yandex_handbook_answers/blob/main/python_basics_3.4.md)
   ```
 A. Автоматизация списка
 B. Сборы на прогулку
@@ -215,7 +225,8 @@ T. Таблицы истинности 3 (Таблица истинности 3)
 <details>
   <summary>3.5.
 Потоковый ввод/вывод. Работа с текстовыми файлами. JSON</summary>
-  
+
+[Решения 3.5](https://github.com/Pavellver/Yandex_handbook_answers/blob/main/python_basics_3.5.md)
   ```
 A. A+B+...
 B. Средний рост
@@ -242,7 +253,8 @@ T. Файловая сумма
 <details>
   <summary>4.1.
 Функции. Области видимости. Передача параметров в функции</summary>
-  
+
+[Решения 4.1](https://github.com/Pavellver/Yandex_handbook_answers/blob/main/python_basics_4.1.md)
   ```
 A. Функциональное приветствие
 B. Функциональный НОД
@@ -259,7 +271,8 @@ J. Слияние
 <details>
   <summary>4.2.
 Позиционные и именованные аргументы. Функции высших порядков. Лямбда-функции</summary>
-  
+
+[Решения 4.2](https://github.com/Pavellver/Yandex_handbook_answers/blob/main/python_basics_4.2.md)
   ```
 A. Генератор списков
 B. Генератор матриц
@@ -276,7 +289,8 @@ J. Ключевой секрет
 <details>
   <summary>4.3.
 Рекурсия. Декораторы. Генераторы</summary>
-  
+
+[Решения 4.3](https://github.com/Pavellver/Yandex_handbook_answers/blob/main/python_basics_4.3.md)
   ```
 A. Рекурсивный сумматор
 B. Рекурсивный сумматор цифр
@@ -293,7 +307,8 @@ J. "Выпрямление" списка
 <details>
   <summary>5.1.
 Объектная модель Python. Классы, поля и методы</summary>
-  
+
+[Решения 5.1](https://github.com/Pavellver/Yandex_handbook_answers/blob/main/python_basics_5.1.md)
   ```
 A. Классная точка
 B. Классная точка 2.0
@@ -310,7 +325,8 @@ J. Стек
 <details>
   <summary>5.2.
 Волшебные методы, переопределение методов. Наследование</summary>
-  
+
+[Решения 5.2](https://github.com/Pavellver/Yandex_handbook_answers/blob/main/python_basics_5.2.md)
   ```
 A. Классная точка 3.0
 B. Классная точка 4.0
