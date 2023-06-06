@@ -3,7 +3,7 @@
 
 Ответы, решения, ключи к задачам глав хэндбука "Основы Python" от Яндекса.
 
-Answers, solutions, keys to the tasks of the chapters of the handbook "Python Basics" from Yandex.
+[Answers, solutions, keys to the tasks of the chapters of the handbook "Python Basics" from Yandex.](https://github.com/Pavellver/Yandex_handbook_answers/blob/a01192da85f3939f00c141a606b5aae442db28b1/python_basics_2.1.md?plain=1#L130-L135)
 
 Список решений по каждой главе:
 <details>
@@ -30,7 +30,7 @@ P. Доставка
 Q. Ошибка кассового аппарата
 R. Сдача 10
 S. Украшение чека
-[T. Мухи отдельно, котлеты отдельно](https://github.com/Pavellver/Yandex_handbook_answers/blob/a01192da85f3939f00c141a606b5aae442db28b1/python_basics_2.1.md?plain=1#L130-L135)
+[T. Мухи отдельно, котлеты отдельно](#https://github.com/Pavellver/Yandex_handbook_answers/blob/a01192da85f3939f00c141a606b5aae442db28b1/python_basics_2.1.md?plain=1#L130-L135)
   ```
 </details>
 <details>
