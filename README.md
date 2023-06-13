@@ -39,6 +39,7 @@ T. Мухи отдельно, котлеты отдельно
 <details>
   <summary>2.2.
 Условный оператор</summary>
+  
 [Решения 2.2](https://github.com/Pavellver/Yandex_handbook_answers/blob/main/python_basics_2.2.md)
   
   ```
@@ -338,5 +339,22 @@ G. Дроби v0.4
 H. Дроби v0.5
 I. Дроби v0.6 
 J. Дроби v0.7
+  ```
+</details>
+<details>
+  <summary>5.3.
+Модель исключений Python. Try, except, else, finally. Модули</summary>
+  
+[Решения 5.3](https://github.com/Pavellver/Yandex_handbook_answers/blob/main/python_basics_5.3.md)
+  ```
+A. Обработка ошибок
+C. Ломать — не строить 2
+D. Контроль параметров
+E. Слияние с проверкой
+F. Корень зла 2
+G. Валидация имени
+H. Валидация имени пользователя
+I. Валидация пользователя
+J. Валидация пароля
   ```
 </details>
