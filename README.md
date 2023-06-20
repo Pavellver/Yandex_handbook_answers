@@ -199,7 +199,7 @@ J. RLE наоборот
 </details>
 <details>
   <summary>3.4.
-Списочные выражения. Модель памяти для типов языка Python</summary>
+Встроенные возможности по работе с коллекциями</summary>
 
 [Решения 3.4](https://github.com/Pavellver/Yandex_handbook_answers/blob/main/python_basics_3.4.md)
   ```
