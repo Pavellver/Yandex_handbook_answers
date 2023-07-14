@@ -378,3 +378,21 @@ I. Вращение
 J. Лесенка
   ```
 </details>
+<details>
+  <summary>6.2.
+Модуль pandas</summary>
+
+[Решения 6.2](https://github.com/Pavellver/Yandex_handbook_answers/blob/main/python_basics_6.2.md)
+  ```
+A. Длины всех слов - 2
+B. Длины всех слов по чётности
+C. Чек - 2
+D. Акция
+E. Длинные слова
+F. Отчёт успеваемости
+G. Отчёт неуспеваемости
+H. Обновление журнала
+I. Бесконечный морской бой
+J. Экстремум функции
+  ```
+</details>
