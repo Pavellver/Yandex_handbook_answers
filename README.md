@@ -1,7 +1,7 @@
 # Yandex handbook "Python Basics" keys
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-Ответы, решения, ключи к задачам глав хэндбука "Основы Python" от Яндекса.
+Ответы, решения, ключи к задачам глав хэндбука "Основы Python" от Яндекса. Решены все 260 задач.
 
 Answers, solutions, keys to the tasks of the chapters of the handbook "Python Basics" from Yandex.
 
@@ -394,5 +394,23 @@ G. Отчёт неуспеваемости
 H. Обновление журнала
 I. Бесконечный морской бой
 J. Экстремум функции
+  ```
+</details>
+<details>
+  <summary>6.3.
+Модуль requests</summary>
+
+[Решения 6.3](https://github.com/Pavellver/Yandex_handbook_answers/blob/main/python_basics_6.3.md)
+  ```
+A. Проверка системы
+B. Суммирование ответов
+C. Суммирование ответов 2
+D. Конкретное значение
+E. Суммирование ответов 3
+F. Список пользователей
+G. Рассылка сообщений
+H. Регистрация нового пользователя
+I. Изменение данных
+J. Удаление данных
   ```
 </details>
