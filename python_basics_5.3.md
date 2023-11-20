@@ -34,7 +34,7 @@ except Exception:
 D. Контроль параметров
 ```python
 def only_positive_even_sum(a, b):
-    if type(a) != int or type(b) != int:
+    if not (isinstance(a, int) and isinstance(b, int)):
         raise TypeError
     if not (a > 0 and not a % 2) or not (b > 0 and not b % 2):
         raise ValueError
