@@ -111,14 +111,14 @@ class StartsWithDigitError(Exception):
     pass
 
 
-def username_validation(name):
-    if not isinstance(name, str):
+def username_validation(username):
+    if not isinstance(username, str):
         raise TypeError
-    if sum(not (i.isalnum() or i == '_') for i in name):
+    if sum((i.lower() not in '0123456789_abcdefghijklmnopqrstuvwxyz') for i in username):
         raise BadCharacterError
-    if name[0].isdigit():
+    if username[0].isdigit():
         raise StartsWithDigitError
-    return name
+    return username
 ```
 I. Валидация пользователя
 ```python
@@ -151,7 +151,7 @@ def name_validation(name):
 def username_validation(username):
     if not isinstance(username, str):
         raise TypeError
-    if sum(not (i.isalnum() or i == '_') for i in username):
+    if sum((i.lower() not in '0123456789_abcdefghijklmnopqrstuvwxyz') for i in username):
         raise BadCharacterError
     if username[0].isdigit():
         raise StartsWithDigitError
