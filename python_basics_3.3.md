@@ -20,7 +20,7 @@ D. Множество нечетных чисел
 ```
 E. Множество всех полных квадратов
 ```python
-{number for number in numbers if number in [i ** 2 for i in range(1, int(max(numbers) ** 0.5 + 1)
+{number for number in numbers if number in [i ** 2 for i in range(1, int(max(numbers) ** 0.5 + 1))]}
 ```
 F. Буквенная статистика
 ```python
