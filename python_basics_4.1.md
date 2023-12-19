@@ -60,7 +60,7 @@ def can_eat(horse, shape):
 H. А роза упала на лапу Азора 7.0
 ```python
 def is_palindrome(n):
-	return str(n) == str(n)[::-1] if type(n) == int else n == n[::-1]
+    return str(n) == str(n)[::-1] if isinstance(n, int) else n == n[::-1]
 ```
 I. Простая задача 5.0
 ```python
@@ -74,6 +74,10 @@ J. Слияние
 ```python
 def merge(a, b):
     c = list(a) + list(b)
-    c.sort()
+    n = len(c)
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if c[j] > c[j + 1]:
+                c[j], c[j + 1] = c[j + 1], c[j]
     return tuple(c)
 ```
