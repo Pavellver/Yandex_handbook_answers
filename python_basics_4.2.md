@@ -10,7 +10,7 @@ def make_list(length, value=0):
 B. Генератор матриц
 ```python
 def make_matrix(size, value=0):
-    if type(size) == int:
+    if isinstance(size, int):
         return [[value for i in range(size)] for j in range(size)]
     else:
         return [[value for i in range(size[0])] for j in range(size[1])]
