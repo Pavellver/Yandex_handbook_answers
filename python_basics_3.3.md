@@ -6,13 +6,13 @@ A. Список квадратов
 ```python
 [number ** 2 for number in range(a, b + 1)]   
 ```
-B. Таблица умножения 2.0
+B. Список квадратов 2
 ```python
-[[i * j for i in range(1, n + 1)] for j in range(1, n + 1)]
+[number**2 for number in range(a, b + (1 if a < b else -1), 1 if a < b else -1)]
 ```
-C. Длины всех слов
+C. Основы фильтрации
 ```python
-[len(word) for word in sentence.split()]
+[num for num in range(a, b + 1) if num % d == 0]
 ```
 D. Множество нечетных чисел
 ```python
