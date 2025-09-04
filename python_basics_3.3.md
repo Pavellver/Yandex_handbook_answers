@@ -22,13 +22,13 @@ E. Множество всех полных квадратов
 ```python
 {number for number in numbers if number in [i ** 2 for i in range(1, int(max(numbers) ** 0.5 + 1))]}
 ```
-F. Буквенная статистика
+F. Длины всех слов
 ```python
-{letter: text.lower().count(letter) for letter in text.lower() if letter.isalpha()}
+[len(word) for word in sentence.split()]
 ```
-G. Делители
+G. Цифровая выжимка
 ```python
-{number: [i for i in range(1, number + 1) if not number % i] for number in numbers}
+''.join([ch for ch in text if ch.isdigit()])
 ```
 H. Аббревиатура
 ```python
@@ -38,7 +38,11 @@ I. Преобразование в строку
 ```python
 ' - '.join(str(i) for i in sorted(set(numbers)))
 ```
-J. RLE наоборот
+J. Огласите список
 ```python
-''.join(i * j for i, j in rle)
+[word for word in words.split() if sum(ch.lower() in 'аяуюоёэеиыaeiouy' for ch in word) >= 3]
+```
+K. Выявление уникальности
+```python
+{num for num in numbers if numbers.count(num) == 1}
 ```
