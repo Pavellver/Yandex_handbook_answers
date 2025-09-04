@@ -195,11 +195,17 @@ for z in range(1, x + 1):
 ```
 S. Числовой квадрат
 ```python
-for i in range(n := int(input())):
-    for j in range(n):
-        d = str(min(i, j, n - i - 1, n - j - 1) + 1)
-        print(d.rjust(len(str((n + 1) // 2)), ' '), end=' ' if j < n - 1 else '\n')
-print('=' * 35)
+N = int(input())
+
+# Вычисляем ширину столбца по количеству цифр в центральном числе
+width = len(str((N + 1) // 2))
+
+for row in range(N):
+    line = []
+    for col in range(N):
+        number = min(row + 1, col + 1, N - row, N - col)
+        line.append(f"{number:>{width}}")  # выравниваем по правому краю по ширине
+    print(" ".join(line))
 ```
 T. Математическая выгода
 ```python
