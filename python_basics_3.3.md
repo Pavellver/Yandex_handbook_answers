@@ -46,3 +46,44 @@ K. Выявление уникальности
 ```python
 {num for num in numbers if numbers.count(num) == 1}
 ```
+L. Максимальное произведение
+```python
+max(x * y for x in numbers for y in numbers if x != y)
+```
+M. Словарный минимум
+```python
+min(data, key=lambda k: (sum(data[k]), k))
+```
+N. Поиск ошибок
+```python
+{key for key, values in data.items() if len(values) != len(set(values))}
+```
+O. Буквенная статистика
+```python
+{ch.lower(): text.lower().count(ch.lower()) for ch in set(text) if ch.isalpha()}
+```
+P. RLE наоборот
+```python
+''.join([ch * count for ch, count in rle])
+```
+Q. Таблица умножения 2.0
+```python
+[[i * j for j in range(1, n + 1)] for i in range(1, n + 1)]
+```
+R. Делители
+```python
+{num: [d for d in range(1, num + 1) if num % d == 0] for num in numbers}
+```
+S. Простое множество
+```python
+{num for num in numbers if num > 1 and all(num % div != 0 for div in range(2, int(num**0.5) + 1))}
+```
+T. Обобщение
+```python
+{
+    tuple(sorted((w1, w2)))
+    for i, w1 in enumerate(text.split())
+    for w2 in text.split()[i + 1:]
+    if len(set(w1) & set(w2)) >= 3
+}
+```
