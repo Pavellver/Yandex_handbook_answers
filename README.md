@@ -1,7 +1,7 @@
 # Yandex handbook "Python Basics" keys
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-Ответы, решения, ключи к задачам глав хэндбука "Основы Python" от Яндекса. Решены все 280 задач.
+Ответы, решения, ключи к задачам глав хэндбука "Основы Python" от Яндекса. Решены все 290 задач.
 
 Answers, solutions, keys to the tasks of the chapters of the handbook "Python Basics" from Yandex.
 
