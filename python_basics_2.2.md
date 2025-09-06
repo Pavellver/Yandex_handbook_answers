@@ -4,12 +4,15 @@
 
 A. Просто здравствуй, просто как дела
 ```python
-name, status = input(), input()
-print('Как Вас зовут?', f'Здравствуйте, {name}!', 'Как дела?', sep='\n')
-if status == 'хорошо':
-    print('Я за вас рада!')
-else:
-    print('Всё наладится!')    
+print("Как Вас зовут?")
+username = input()
+print(f"Здравствуйте, {username}!")
+print("Как дела?")
+mood = input()
+if mood == "хорошо":
+    print("Я за Вас рада!")
+elif mood == "плохо":
+    print("Всё наладится!")    
 ```
 B. Кто быстрее?
 ```python
